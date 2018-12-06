@@ -39,7 +39,7 @@
   height: 45px;
 }
 
-/*#eye{
+#eye {
   border-radius: 50%;
   width: 10px;
   height: 10px;
@@ -49,9 +49,9 @@
   left: 50px;
   z-index: 2;
   animation: eye var(--duration) infinite var(--anim-function);
-
 }
-@keyframes eye{
+
+/*@keyframes eye{
   50%{
     transform: translate(-3px,-3px);
   }
