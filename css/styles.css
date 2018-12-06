@@ -51,12 +51,13 @@
   animation: eye var(--duration) infinite var(--anim-function);
 }
 
-/*@keyframes eye{
-  50%{
-    transform: translate(-3px,-3px);
+@keyframes eye {
+  50% {
+    transform: translate(-3px, -3px);
   }
- }
-#top{
+}
+
+/*#top{
   border-top-left-radius: 90px;
   border-top-right-radius: 90px;
   animation: anticlock var(--duration)  infinite var(--anim-function);
