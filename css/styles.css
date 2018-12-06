@@ -64,14 +64,14 @@
   transform-origin: bottom;
 }
 
-/*#bottom{
+#bottom {
   border-bottom-left-radius: 90px;
   border-bottom-right-radius: 90px;
-  animation: clock var(--duration)  infinite var(--anim-function);
+  animation: clock var(--duration) infinite var(--anim-function);
   transform-origin: top;
 }
 
-@keyframes anticlock{
+/*@keyframes anticlock{
   50%{transform: rotate(-40deg) ;}
 }
 @keyframes clock{
