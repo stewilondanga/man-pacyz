@@ -14,11 +14,11 @@
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-
+/*
 #frame{
   --duration: 0.7s;
   --anim-function: ease-in-out;
