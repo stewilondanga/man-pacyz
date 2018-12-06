@@ -57,14 +57,14 @@
   }
 }
 
-/*#top{
+#top {
   border-top-left-radius: 90px;
   border-top-right-radius: 90px;
-  animation: anticlock var(--duration)  infinite var(--anim-function);
+  animation: anticlock var(--duration) infinite var(--anim-function);
   transform-origin: bottom;
 }
 
-#bottom{
+/*#bottom{
   border-bottom-left-radius: 90px;
   border-bottom-right-radius: 90px;
   animation: clock var(--duration)  infinite var(--anim-function);
