@@ -71,10 +71,13 @@
   transform-origin: top;
 }
 
-/*@keyframes anticlock{
-  50%{transform: rotate(-40deg) ;}
+@keyframes anticlock {
+  50% {
+    transform: rotate(-40deg);
+  }
 }
-@keyframes clock{
+
+/*@keyframes clock{
   50%{transform: rotate(40deg) ;}
 }
 #dots{
