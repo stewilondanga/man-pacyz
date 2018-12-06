@@ -87,7 +87,7 @@
   position: absolute;
 }
 
-/*.dot{
+.dot {
   background: #f4d146;
   display: inline-block;
   border-radius: 50%;
@@ -98,7 +98,8 @@
   right: -300px;
   animation: walk 3s infinite linear;
 }
-@keyframes walk{
+
+/*@keyframes walk{
   to{
     transform: translate(-150px);
   }
