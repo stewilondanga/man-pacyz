@@ -18,8 +18,7 @@
   height: 1.5em;
 }
 
-/*
-#frame{
+#frame {
   --duration: 0.7s;
   --anim-function: ease-in-out;
   --back: #333;
@@ -29,7 +28,8 @@
   margin: auto;
   margin-top: 40px;
 }
-#pac{
+
+/*#pac{
   padding: 110px;
 }
 .half{
