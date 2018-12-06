@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,94 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+*{margin:0;padding:0}
+#frame{
+  --duration: 0.7s;
+  --anim-function: ease-in-out;
+  --back: #333;
+  background: var(--back);
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 40px;
+}
+#pac{
+  padding: 110px;
+}
+.half{
+  background: #f4d146;
+  width: 90px;
+  height: 45px;
+}
+#eye{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: var(--back);
+  position: relative;
+  top: 25px;
+  left: 50px;
+  z-index: 2;
+  animation: eye var(--duration) infinite var(--anim-function);
+
+}
+@keyframes eye{
+  50%{
+    transform: translate(-3px,-3px);
+  }
+ }
+#top{
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  animation: anticlock var(--duration)  infinite var(--anim-function);
+  transform-origin: bottom;
+}
+
+#bottom{
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  animation: clock var(--duration)  infinite var(--anim-function);
+  transform-origin: top;
+}
+
+@keyframes anticlock{
+  50%{transform: rotate(-40deg) ;}
+}
+@keyframes clock{
+  50%{transform: rotate(40deg) ;}
+}
+#dots{
+  position: absolute;
+}
+.dot{
+  background: #f4d146;
+  display: inline-block;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -160px;
+  right: -300px;
+  animation: walk 3s infinite linear;
+}
+@keyframes walk{
+  to{
+    transform: translate(-150px);
+  }
+}
+#two{
+  animation-delay: -0.6s;
+}
+#three{
+  animation-delay: -1.2s;
+}
+#four{
+  animation-delay: -1.8s;
+}
+#five{
+  animation-delay: -2.4s;
 }
 
 .containers {
