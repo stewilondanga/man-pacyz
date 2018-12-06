@@ -33,12 +33,13 @@
   padding: 110px;
 }
 
-/*.half{
+.half {
   background: #f4d146;
   width: 90px;
   height: 45px;
 }
-#eye{
+
+/*#eye{
   border-radius: 50%;
   width: 10px;
   height: 10px;
