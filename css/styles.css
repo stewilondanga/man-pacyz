@@ -77,10 +77,13 @@
   }
 }
 
-/*@keyframes clock{
-  50%{transform: rotate(40deg) ;}
+@keyframes clock {
+  50% {
+    transform: rotate(40deg);
+  }
 }
-#dots{
+
+/*#dots{
   position: absolute;
 }
 .dot{
