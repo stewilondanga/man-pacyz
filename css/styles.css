@@ -105,10 +105,11 @@
   }
 }
 
-/*#two{
+#two {
   animation-delay: -0.6s;
 }
-#three{
+
+/*#three{
   animation-delay: -1.2s;
 }
 #four{
