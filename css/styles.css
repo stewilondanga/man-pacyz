@@ -83,10 +83,11 @@
   }
 }
 
-/*#dots{
+#dots {
   position: absolute;
 }
-.dot{
+
+/*.dot{
   background: #f4d146;
   display: inline-block;
   border-radius: 50%;
